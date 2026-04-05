@@ -1,0 +1,18 @@
+{
+  "title": "ডেভ নিউজ",
+  "subtitle": "আগামীকাল গঠনকারী নির্মাতাদের থেকে সংকেত।",
+  "searchPlaceholder": "গল্প, ট্যাগ, লেখক অনুসন্ধান করুন",
+  "userName": "অ্যালেক্স রিভেরা",
+  "userRole": "প্রো সদস্য",
+  "trendingTitle": "আজ ট্রেন্ডিং",
+  "trendingSubtitle": "পণ্য দল এবং ইন্ডি বিল্ডারদের থেকে তাজা সংকেত।",
+  "upvotes": "আপভোট",
+  "downvotes": "ডাউনভোট",
+  "views": "দর্শন",
+  "engagement": "এনগেজমেন্ট",
+  "tags": "ট্যাগ",
+  "author": "লেখক",
+  "publishedOn": "প্রকাশিত",
+  "backToHome": "হোমে ফিরে যান",
+  "newsNotFound": "{slug} আইডি সহ এই সংবাদ পাওয়া যায়নি!"
+}

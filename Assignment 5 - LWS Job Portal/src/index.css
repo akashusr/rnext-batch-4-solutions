@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+ @layer base {
+                :root {
+                    --color-border: 214.3 31.8% 91.4%;
+                    --color-input: 214.3 31.8% 91.4%;
+                    --color-ring: 222.2 84% 4.9%;
+                    --color-background: 0 0% 100%;
+                    --color-foreground: 222.2 84% 4.9%;
+                    --color-primary: 222.2 47.4% 11.2%;
+                    --color-primary-foreground: 210 40% 98%;
+                    --color-secondary: 210 40% 96.1%;
+                    --color-secondary-foreground: 222.2 47.4% 11.2%;
+                    --color-muted: 210 40% 96.1%;
+                    --color-muted-foreground: 215.4 16.3% 46.9%;
+                    --color-accent: 210 40% 96.1%;
+                    --color-accent-foreground: 222.2 47.4% 11.2%;
+                    --color-card: 0 0% 100%;
+                    --color-card-foreground: 222.2 84% 4.9%;
+                }
+            }
+
+            @layer components {
+                .btn {
+                    @apply inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors;
+                    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--color-ring))];
+                    @apply disabled:pointer-events-none disabled:opacity-50;
+                }
+
+                .btn-primary {
+                    @apply bg-[hsl(var(--color-primary))] text-[hsl(var(--color-primary-foreground))];
+                    @apply hover:bg-[hsl(var(--color-primary))]/90 h-10 px-4 py-2;
+                }
+
+                .btn-secondary {
+                    @apply bg-[hsl(var(--color-secondary))] text-[hsl(var(--color-secondary-foreground))];
+                    @apply hover:bg-[hsl(var(--color-secondary))]/80 h-10 px-4 py-2;
+                }
+
+                .btn-outline {
+                    @apply border border-[hsl(var(--color-input))] bg-[hsl(var(--color-background))];
+                    @apply hover:bg-[hsl(var(--color-accent))] hover:text-[hsl(var(--color-accent-foreground))];
+                    @apply h-10 px-4 py-2;
+                }
+
+                .btn-ghost {
+                    @apply hover:bg-[hsl(var(--color-accent))] hover:text-[hsl(var(--color-accent-foreground))];
+                    @apply h-10 px-4 py-2;
+                }
+
+                .card {
+                    @apply rounded-lg border border-[hsl(var(--color-border))];
+                    @apply bg-[hsl(var(--color-card))] text-[hsl(var(--color-card-foreground))] shadow-sm;
+                }
+
+                .input {
+                    @apply flex h-10 w-full rounded-md border border-[hsl(var(--color-input))];
+                    @apply bg-[hsl(var(--color-background))] px-3 py-2 text-sm;
+                    @apply placeholder:text-[hsl(var(--color-muted-foreground))];
+                    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--color-ring))];
+                    @apply disabled:cursor-not-allowed disabled:opacity-50;
+                }
+
+                .badge {
+                    @apply inline-flex items-center rounded-full border border-transparent;
+                    @apply px-2.5 py-0.5 text-xs font-semibold transition-colors;
+                    @apply focus:outline-none focus:ring-2 focus:ring-[hsl(var(--color-ring))];
+                }
+
+                .badge-default {
+                    @apply bg-[hsl(var(--color-primary))] text-[hsl(var(--color-primary-foreground))];
+                    @apply hover:bg-[hsl(var(--color-primary))]/80;
+                }
+
+                .badge-secondary {
+                    @apply bg-[hsl(var(--color-secondary))] text-[hsl(var(--color-secondary-foreground))];
+                    @apply hover:bg-[hsl(var(--color-secondary))]/80;
+                }
+
+                .badge-outline {
+                    @apply border-[hsl(var(--color-border))] text-[hsl(var(--color-foreground))];
+                }
+
+                .badge-success {
+                    @apply bg-green-100 text-green-800 border-green-200;
+                }
+
+                .badge-info {
+                    @apply bg-blue-100 text-blue-800 border-blue-200;
+                }
+
+                .skeleton {
+                    @apply animate-pulse bg-[hsl(var(--color-muted))] rounded-md;
+                }
+            }
+
+            .dropdown {
+                position: relative;
+            }
+
+            .label {
+                    @apply text-sm font-medium leading-none;
+                    @apply peer-disabled:cursor-not-allowed peer-disabled:opacity-70;
+            }
+
+            .dropdown-content {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                margin-top: 0.5rem;
+                min-width: 200px;
+                z-index: 10;
+            }
+
+            .dropdown-content.show {
+                display: block;
+            }
+
+            .skeleton {
+                    @apply animate-pulse bg-[hsl(var(--color-muted))] rounded-md;
+            }
+
+            .role-tab {
+                transition: all 0.2s ease;
+            }
+
+            .role-tab.active {
+                background: hsl(var(--color-primary));
+                color: hsl(var(--color-primary-foreground));
+            }
+            .textarea {
+                    @apply flex min-h-[80px] w-full rounded-md border border-[hsl(var(--color-input))];
+                    @apply bg-[hsl(var(--color-background))] px-3 py-2 text-sm;
+                    @apply placeholder:text-[hsl(var(--color-muted-foreground))];
+                    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--color-ring))];
+                    @apply disabled:cursor-not-allowed disabled:opacity-50;
+                }
+                .select {
+                    @apply flex h-10 w-full rounded-md border border-[hsl(var(--color-input))];
+                    @apply bg-[hsl(var(--color-background))] px-3 py-2 text-sm;
+                    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--color-ring))];
+                    @apply disabled:cursor-not-allowed disabled:opacity-50;
+                }

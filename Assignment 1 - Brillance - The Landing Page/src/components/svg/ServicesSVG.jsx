@@ -1,0 +1,49 @@
+
+export const ServicesSVG = () => {
+  return (
+    <svg
+      width="12"
+      height="12"
+      viewBox="0 0 12 12"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="1"
+        y="1"
+        width="4"
+        height="4"
+        stroke="#37322F"
+        strokeWidth="1"
+        fill="none"
+      />
+      <rect
+        x="7"
+        y="1"
+        width="4"
+        height="4"
+        stroke="#37322F"
+        strokeWidth="1"
+        fill="none"
+      />
+      <rect
+        x="1"
+        y="7"
+        width="4"
+        height="4"
+        stroke="#37322F"
+        strokeWidth="1"
+        fill="none"
+      />
+      <rect
+        x="7"
+        y="7"
+        width="4"
+        height="4"
+        stroke="#37322F"
+        strokeWidth="1"
+        fill="none"
+      />
+    </svg>
+  );
+};

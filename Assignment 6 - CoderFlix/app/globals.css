@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cf-bg: #141414;
+  --cf-surface: #1f1f1f;
+  --cf-surface-2: #262626;
+  --cf-text: #e5e5e5;
+  --cf-muted: #b3b3b3;
+  --cf-border: #2a2a2a;
+  --cf-red: #e50914;
+}
+
+* {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  color: var(--cf-text);
+  background: var(--cf-bg);
+}
+
+::selection {
+  background: rgba(229, 9, 20, 0.35);
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

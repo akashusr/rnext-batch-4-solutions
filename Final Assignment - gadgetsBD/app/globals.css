@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@theme {
+  --color-amazon-background: #E3E6E6;
+  --color-amazon-light: #232F3E;
+  --color-amazon: #131921;
+  --color-amazon-text: #333333;
+  --color-amazon-blue: #007185;
+  --color-amazon-orange: #C7511F;
+  --color-amazon-yellow: #FFD814;
+  --color-amazon-yellow-hover: #F7CA00;
+  --color-amazon-secondary: #FFA41C;
+  --color-amazon-secondary-hover: #FA8900;
+
+  --font-sans: "Arial", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-amazon-background text-amazon-text;
+  }
+}
+
+@layer components {
+
+  /* Amazon-style button */
+  .a-button-primary {
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+    border: 1px solid #a88734;
+    border-color: #a88734 #9c7e31 #846a29;
+  }
+
+  .a-button-primary:hover {
+    background: linear-gradient(to bottom, #f5d78e, #eeb933);
+  }
+
+  /* Amazon-style box/card */
+  .a-box {
+    @apply bg-white border border-gray-300 rounded-sm shadow-sm;
+  }
+
+  /* Product card hover effect */
+  .product-card {
+    @apply bg-white border border-gray-200 rounded-sm hover:shadow-lg transition-shadow duration-200;
+  }
+
+  /* Input field styling */
+  .input-field {
+    @apply w-full px-2 py-1.5 border border-gray-400 rounded-sm outline-none focus:ring-1 focus:ring-amazon-secondary focus:border-amazon-secondary;
+  }
+}
+
+/* Toast slide-in animation */
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.3s ease-out;
+}
+
+/* Scroll-to-top fade */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.2s ease-out;
+}
+
+/* Image zoom lens */
+.zoom-lens {
+  position: absolute;
+  border: 2px solid rgba(255, 168, 28, 0.6);
+  background: rgba(255, 168, 28, 0.1);
+  cursor: crosshair;
+  pointer-events: none;
+}
+
+/* Skeleton pulse */
+@keyframes skeleton-pulse {
+
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-skeleton {
+  animation: skeleton-pulse 1.5s ease-in-out infinite;
+  background: linear-gradient(90deg, #e5e7eb 25%, #f3f4f6 50%, #e5e7eb 75%);
+  background-size: 200% 100%;
+}

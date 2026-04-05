@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+:root {
+    --ink: #161616;
+    --muted: #6b7280;
+    --bg: #f7f7f7;
+    --card: #ffffff;
+    --accent: #ff385c;
+    --accent-2: #f97316;
+    --radius: 16px;
+    color-scheme: light;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "DM Sans", "Inter", system-ui, -apple-system, sans-serif;
+    background: radial-gradient(
+            circle at 18% 20%,
+            rgba(255, 56, 92, 0.06),
+            transparent 32%
+        ),
+        radial-gradient(
+            circle at 80% 10%,
+            rgba(249, 115, 22, 0.05),
+            transparent 30%
+        ),
+        var(--bg);
+    color: var(--ink);
+    min-height: 100vh;
+}
+
+.soft-card {
+    background: var(--card);
+    border: 1px solid #e5e7eb;
+    border-radius: var(--radius);
+    box-shadow: 0 15px 35px rgba(17, 24, 39, 0.08);
+}
+
+.pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    background: #fff4f7;
+    color: var(--accent);
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.button-primary {
+    background: linear-gradient(120deg, var(--accent), #ff6b81);
+    color: #ffffff;
+    border-radius: 12px;
+    font-weight: 600;
+    box-shadow: 0 12px 30px rgba(255, 56, 92, 0.35);
+}
+
+.button-primary:hover {
+    filter: brightness(1.03);
+}
+
+.button-ghost {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    font-weight: 600;
+    color: var(--ink);
+    background: #ffffff;
+}
+
+.button-ghost:hover {
+    background: #f8f8f8;
+}
+
+body:has(.notfound) {
+    overflow: hidden;
+}

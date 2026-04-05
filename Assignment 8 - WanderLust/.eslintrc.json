@@ -1,0 +1,8 @@
+{
+    "extends": "next/core-web-vitals",
+    "rules": {
+        "no-unused-vars": ["error", { "varsIgnorePattern": "^[A-Z_]" }],
+        "react/prop-types": "off",
+        "no-console": "warn"
+    }
+}

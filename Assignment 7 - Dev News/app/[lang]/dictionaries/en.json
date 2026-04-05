@@ -1,0 +1,18 @@
+{
+  "title": "Dev News",
+  "subtitle": "Signals from the builders shaping tomorrow.",
+  "searchPlaceholder": "Search stories, tags, authors",
+  "userName": "Alex Rivera",
+  "userRole": "Pro member",
+  "trendingTitle": "Trending Today",
+  "trendingSubtitle": "Fresh signals from product teams and indie builders.",
+  "upvotes": "Upvotes",
+  "downvotes": "Downvotes",
+  "views": "Views",
+  "engagement": "Engagement",
+  "tags": "Tags",
+  "author": "Author",
+  "publishedOn": "Published on",
+  "backToHome": "Back to home",
+  "newsNotFound": "This News with {slug} id was not found!"
+}

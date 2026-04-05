@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+:root {
+  --font-inter: "Inter", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, sans-serif;
+  --font-instrument-serif: "Instrument Serif", ui-serif, serif;
+}
+* {
+  @apply border-[rgba(55,50,47,0.08)] outline-[rgba(55,50,47,0.50)];
+}
+
+body {
+  @apply bg-[#F7F5F3] text-[#37322F] antialiased;
+  font-family: var(--font-inter);
+}
+
+.font-serif {
+  font-family: var(--font-instrument-serif);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+.mix-blend-multiply {
+  mix-blend-mode: multiply;
+}
+
+.backdrop-blur-custom {
+  backdrop-filter: blur(8.25px);
+}

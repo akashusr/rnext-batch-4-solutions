@@ -1,0 +1,182 @@
+[
+    {
+        "id": 3,
+        "slug": "what-else-could-container-queries-query",
+        "title": "What Else Could Container Queries… Query?",
+        "description": "I’ll admit, when container queries first shipped back in 2022, I didn’t really pay attention. I mean, why container size queries when we already have media queries? Why container style queries when custom properties inherit anyway (they don’t work with standard properties… yet)? Their use cases seemed like edge cases to me, enabling us to do things that we could already do but in a different way.\n\nHere’s a container size queries demo by Kevin Powell. As a note, all major browsers support size queries in the following demo, but other demos in this article may require the latest Chrome.\nContainer scroll-state queries came along with their unique capabilities — the ability to find out whether a container is scrollable, or is scroll-snapped to a scroll target, or has position: sticky and is ‘stuck.’ Literally, as I’m writing this, Chrome announced scrolled support, which is a bit different to scrollable.",
+        "author_name": "Daniel Schwarz ",
+        "author_avatar": "devnews1767153781714.png",
+        "published_date": "2025-12-01",
+        "tags": [
+            "Frontend",
+            "CSS",
+            "WebDev"
+        ],
+        "upvotes": "66410",
+        "downvotes": "10",
+        "views": "32963",
+        "thumbnail": "devnews1767153782307.webp"
+    },
+    {
+        "id": 4,
+        "slug": "steam-16b-in-2025-nearly-half-of-19000-games-got-under-10-reviews",
+        "title": "Steam: $16B+ in 2025, Nearly Half of 19,000 Games Got Under 10 Reviews",
+        "description": "Steam generated over $16.2 billion in revenue during the first eleven months of 2025, marking its strongest year ever. However, nearly half of the 19,000 games released on the platform received fewer than 10 reviews, indicating severe discoverability challenges. Only 6.2% of releases surpassed 500 reviews, a threshold for broader visibility. The data reveals a platform thriving commercially through a small number of successful titles while the majority of games struggle to gain traction, creating a difficult environment for smaller developers.",
+        "author_name": "80 LEVEL",
+        "author_avatar": "devnews1767153839708.webp",
+        "published_date": "2025-12-26",
+        "tags": [
+            "WebDev",
+            "Gaming",
+            "Steam"
+        ],
+        "upvotes": "57505",
+        "downvotes": "12",
+        "views": "65984",
+        "thumbnail": "devnews1767153839744.webp"
+    },
+    {
+        "id": 5,
+        "slug": "is-retro-design-making-a-comeback",
+        "title": "Is retro design making a comeback?",
+        "description": "From pixel art to skeuomorphic buttons and neon palettes, especially across product categories like fashion, design, food, and computer games, designers are reviving vintage aesthetics to evoke familiarity and delight. After years of flat, minimalist design, reinterpreting nostalgia with modern UX principles (like clarity, accessibility, and responsiveness), designs can be created that represent authenticity, individuality, and emotional connection.\nWhy retro design is making a comeback\nThe prevalence of minimalist, uniform aesthetics has often made brands indistinguishable. In such a digital landscape, design techniques are required that help distinguish products:\n\nNostalgia — Retro design evokes memories of simpler times, creating emotional connections that foster trust and user engagement\nBrand differentiation — As most large platforms and corporate sites have settled into a homogeneous minimalist aesthetic (clean lines, excessive white space, simple typography, and identical color palettes), using retro elements provides a potent tool for brand differentiation\nAnti-minimalism fatigue — Users are experiencing fatigue with the decade-long dominance of ultra-clean, highly polished flat design. While minimalist design is efficient, its ubiquity has rendered many digital experiences visually monotonous and impersonal",
+        "author_name": "Neel Dozome",
+        "author_avatar": "devnews1767153914435.jpg",
+        "published_date": "2025-12-11",
+        "tags": [
+            "Frontend",
+            "Design",
+            "WebDev"
+        ],
+        "upvotes": "37715",
+        "downvotes": "21",
+        "views": "2902",
+        "thumbnail": "devnews1767153914468.jpg"
+    },
+    {
+        "id": 6,
+        "slug": "my-code-review-experience-as-a-junior-developer-what-i-learned-and-how-to-review-as-a-team",
+        "title": "My Code Review Experience as a Junior Developer: What I Learned and How to Review as a Team?",
+        "description": "Hey there, curious minds! 👋\n\nWelcome to my newsletter, where I share what I’ve been learning, thinking about, and exploring in the tech world. If you don’t know me:\n\nHi, I am Sumonta Saha Mridul. I’m an Associate Software Engineer at Cefalo. I regularly share what I learn through weekly posts on LinkedIn, Dev. to, and Medium. Also, I run a small YouTube channel where I try to share helpful content for developers.\n\nAs a junior developer, especially in the AI era, where almost everything can be generated by AI, it’s hard to continuously improve and keep learning. One of the best ways to grow is by reviewing and trying to understand existing code. Yes, at an early stage, it’s hard, things seem complicated, and you might not know the best practices. But if you don’t start now, it will be difficult to go far in this industry.",
+        "author_name": "Sumonta Saha Mridul",
+        "author_avatar": "devnews1767153977803.webp",
+        "published_date": "2025-12-19",
+        "tags": [
+            "WebDev",
+            "CodeReview",
+            "JuniorDeveloper"
+        ],
+        "upvotes": "33130",
+        "downvotes": "19",
+        "views": "26513",
+        "thumbnail": "devnews1767153977831.webp"
+    },
+    {
+        "id": 7,
+        "slug": "my-llm-coding-workflow-going-into-2026",
+        "title": "My LLM coding workflow going into 2026",
+        "description": "A comprehensive guide to using LLM coding assistants effectively in 2026. Key practices include starting with detailed specifications before coding, breaking work into small iterative chunks, providing extensive context to the AI, choosing appropriate models for different tasks, maintaining human oversight through testing and code review, committing frequently for version control safety, customizing AI behavior with rules and examples, leveraging automation as quality gates, and treating AI as a force multiplier rather than replacement. The workflow emphasizes treating LLMs as junior pair programmers requiring guidance while maintaining developer accountability for all code produced. ",
+        "author_name": "Elevate",
+        "author_avatar": "devnews1767154054830.webp",
+        "published_date": "2025-12-21",
+        "tags": [
+            "AI",
+            "WebDev",
+            "Coding"
+        ],
+        "upvotes": "17287",
+        "downvotes": "16",
+        "views": "9172",
+        "thumbnail": "devnews1767154054847.webp"
+    },
+    {
+        "id": 8,
+        "slug": "aws-ceo-explains-3-reasons-ai-cant-replace-junior-devs",
+        "title": "AWS CEO Explains 3 Reasons AI Can’t Replace Junior Devs",
+        "description": "AWS CEO Matt Garman argues against replacing junior developers with AI, citing three key reasons: junior developers are often more proficient with AI tools than senior staff, they represent minimal cost savings as the lowest-paid employees, and eliminating them breaks the talent pipeline that companies need for future growth. He emphasizes that junior hires bring fresh perspectives, adapt quickly to new technologies, and form the foundation for developing future leaders. While acknowledging AI will change how developers work, Garman believes it will ultimately create more jobs than it eliminates in the medium to long term.",
+        "author_name": "Hacker News",
+        "author_avatar": "devnews1767154131121.webp",
+        "published_date": "2025-12-27",
+        "tags": [
+            "AI",
+            "WebDev",
+            "Coding"
+        ],
+        "upvotes": "56313",
+        "downvotes": "32",
+        "views": "96262",
+        "thumbnail": "devnews1767154131137.webp"
+    },
+    {
+        "id": 9,
+        "slug": "googles-vibe-coding-tool-opal-comes-to-gemini",
+        "title": "Google's vibe-coding tool Opal comes to Gemini",
+        "description": "Google is integrating Opal, its vibe-coding tool for building AI-powered mini apps, directly into the Gemini web interface. Users can now create custom apps (called Gems) using natural language descriptions, with a visual editor that arranges steps without writing code. The tool includes a new view that converts written prompts into step-by-step workflows, and advanced users can access more customization options at opal.google.com. This move positions Google alongside other AI-powered app-building tools like Lovable, Cursor, and offerings from Anthropic and OpenAI.",
+        "author_name": "TechCrunch",
+        "author_avatar": "devnews1767154305762.webp",
+        "published_date": "2025-12-25",
+        "tags": [
+            "AI",
+            "WebDev",
+            "Coding"
+        ],
+        "upvotes": "61940",
+        "downvotes": "54",
+        "views": "72605",
+        "thumbnail": "devnews1767154305775.webp"
+    },
+    {
+        "id": 10,
+        "slug": "planning-for-7-0",
+        "title": "Planning for 7.0",
+        "description": "WordPress 7.0 development is underway following the 6.9 release. Core contributors are focusing on Phase 3 collaboration features, including improvements to the Notes feature with better diffing mechanics and change reconciliation. Navigation workflow simplifications are planned to make menu management more intuitive. The team is exploring streamlined editing experiences for composite blocks and design patterns, plus more intuitive page navigation in the site editor. Additional blocks and tools are being added to expand capabilities for theme builders. ",
+        "author_name": "Make WordPress Core",
+        "author_avatar": "devnews1767154401940.webp",
+        "published_date": "2025-12-18",
+        "tags": [
+            "AI",
+            "WebDev",
+            "Coding"
+        ],
+        "upvotes": "13562",
+        "downvotes": "47",
+        "views": "17280",
+        "thumbnail": "devnews1767154401956.webp"
+    },
+    {
+        "id": 11,
+        "slug": "coding-on-paper",
+        "title": "Coding on Paper",
+        "description": "Coding on paper, despite seeming impractical without autocomplete or testing, serves as deliberate practice that strengthens fundamental programming skills. By restricting tools and making the process harder, developers build cognitive muscles for attention to detail, deliberate problem-solving, and independent thinking. This mirrors how athletes train with restrictions to improve performance, and how writing by hand helps form thoughts rather than just communicate them. The difficulty forces mastery of the process itself, not just the final product",
+        "author_name": "The Palindrome",
+        "author_avatar": "devnews1767154435141.webp",
+        "published_date": "2025-12-21",
+        "tags": [
+            "AI",
+            "WebDev",
+            "Coding"
+        ],
+        "upvotes": "99444",
+        "downvotes": "96",
+        "views": "26802",
+        "thumbnail": "devnews1767154435175.webp"
+    },
+    {
+        "id": 12,
+        "slug": "python-node-streaming-and-websocket-now-supported",
+        "title": "Python-Node: Streaming and WebSocket Now Supported",
+        "description": "@platformatic/python-node v2.0.0 introduces HTTP streaming and WebSocket support, enabling real-time bidirectional communication between Python ASGI applications and Node.js. The release implements ASGI 3.0 protocol with new handleStream() method for incremental response processing, request body streaming with backpressure, and full WebSocket support. This enables use cases like server-sent events, live dashboards, chat applications, and ML model inference while maintaining backward compatibility. The streaming architecture provides proper backpressure between languages, reduces memory footprint for large responses, and allows immediate access to headers before body completion. ",
+        "author_name": "Platformatic",
+        "author_avatar": "devnews1767154482231.webp",
+        "published_date": "2025-12-17",
+        "tags": [
+            "AI",
+            "WebDev",
+            "Coding"
+        ],
+        "upvotes": "29057",
+        "downvotes": "37",
+        "views": "70575",
+        "thumbnail": "devnews1767154482252.webp"
+    }
+]
